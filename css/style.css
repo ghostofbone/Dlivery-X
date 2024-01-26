@@ -1743,7 +1743,7 @@ body {
     left: -100%;
     top: 0;
     overflow: auto;
-    background-color: rgb(226, 106, 82);
+    background-color: rgb(192, 182, 182);
     padding: 8.75rem 0.9375rem 0.9375rem 1.875rem;
     z-index: 5;
     -webkit-transition: left 0.3s;
@@ -1760,7 +1760,7 @@ body {
     -webkit-transition: left 0.3s;
     transition: left 0.3s;
     z-index: 10;
-    background-color: rgb(207, 202, 202);
+    background-color: rgb(255, 255, 255);
   }
 
   .menu-open .menu__body {
@@ -1939,6 +1939,15 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+
+  .header .button {
+    background-color: transparent;
+    color: rgb(18, 18, 18);
+    border: 1px solid rgb(18, 18, 18);
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(16, 16, 16, 0.04);
+            box-shadow: 0px 2px 6px 0px rgba(16, 16, 16, 0.04);
+    color: rgb(18, 18, 18);
   }
 }
 
