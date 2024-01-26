@@ -1719,6 +1719,10 @@ body {
     max-width: 100%;
   }
 
+  .burgers {
+    padding: 2.5rem 0rem;
+  }
+
   .burgers .actions__button {
     margin: 0 auto;
   }
