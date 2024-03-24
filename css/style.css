@@ -1943,6 +1943,10 @@ body::after {
     margin-bottom: 1.875rem;
   }
 
+  .menu__link {
+    color: #fff;
+  }
+
   .icon-menu {
     display: block;
     position: relative;
